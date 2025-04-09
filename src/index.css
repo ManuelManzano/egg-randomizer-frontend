@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-green-600 {
+      background-color: #16a34a;
+    }
+  }
+  
