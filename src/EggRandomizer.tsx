@@ -73,14 +73,15 @@ export default function EggRandomizer() {
 
       {/* Paper link */}
       <section className="w-full max-w-3xl text-center">
-        <a
-          href="https://link-to-your-paper.com"
-          className="text-blue-600 underline text-lg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Read the original paper and research references
-        </a>
+<a
+  href="/proposal.html"
+  className="text-blue-600 underline text-lg"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Read the original paper and research references
+</a>
+
       </section>
 
       {/* Detection Info */}
