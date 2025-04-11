@@ -15,7 +15,7 @@ export default function EggRandomizer() {
 
   const generateRandomNumber = async () => {
     try {
-      const res = await axios.get("http://127.0.0.1:5000/api/egg-seed");
+      const res = await axios.get("https://egg-randomizer-backend.onrender.com");
       const seed = res.data.seed;
       const scaled = Math.floor(seed * (max - min + 1)) + parseInt(min.toString());
       setRandomNumber(scaled);
